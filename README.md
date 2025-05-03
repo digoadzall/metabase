@@ -19,8 +19,8 @@ Perusahaan Edutech menghadapi tantangan tingginya tingkat *attrition* atau karya
 
 ## 📊 Sumber Data
 
-Dataset yang digunakan berasal dari Kaggle:  
-🔗 [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+Dataset yang digunakan berasal dari github:  
+🔗 [[IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 ---
 
