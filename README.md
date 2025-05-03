@@ -67,19 +67,21 @@ Langkah-langkah:
 
 ## ✅ Hasil Analisis
 
-Faktor-faktor utama yang berkorelasi dengan attrition:
-- **OverTime**: Lembur berkepanjangan meningkatkan kemungkinan keluar.
-- **JobSatisfaction**: Semakin rendah kepuasan kerja, semakin besar kemungkinan keluar.
-- **DistanceFromHome**: Jarak rumah yang jauh turut memperbesar risiko.
-- **MonthlyIncome**: Gaji rendah cenderung dikaitkan dengan attrition.
+Berdasarkan visualisasi yang ditampilkan di dashboard Metabase, beberapa temuan utama terkait attrition karyawan adalah:
 
-Model prediksi menggunakan Random Forest menunjukkan akurasi yang baik dan dapat dijadikan dasar pengambilan keputusan.
+- **OverTime**: Karyawan yang melakukan lembur (*OverTime = Yes*) memiliki tingkat keluar yang jauh lebih tinggi dibanding yang tidak lembur.
+- **YearsAtCompany**: Mayoritas karyawan yang keluar memiliki masa kerja singkat, terutama di bawah 3 tahun. Hal ini menunjukkan tantangan dalam retensi karyawan baru.
+- **MonthlyIncome**: Karyawan dengan pendapatan bulanan yang lebih rendah cenderung lebih sering mengalami attrition.
+- **Gender**: Terdapat perbedaan attrition antar gender, dengan karyawan laki-laki menunjukkan angka keluar yang lebih tinggi.
+- **JobRole**: Posisi seperti *Sales Executive* dan *Laboratory Technician* memiliki jumlah karyawan keluar yang lebih tinggi dibanding peran lain.
+- **Age**: Rentang usia 30–40 tahun mendominasi populasi attrition, meskipun tidak menunjukkan pola yang ekstrem secara distribusi.
 
 ---
 
 ## 💡 Rekomendasi
 
-- Kontrol lembur dan pantau jam kerja secara berkala.
-- Adakan program engagement untuk meningkatkan kepuasan kerja.
-- Evaluasi dan revisi skema kompensasi secara rutin.
-- Berikan opsi kerja fleksibel untuk karyawan yang tinggal jauh.
+- **Kelola lembur**: Batasi lembur dan pastikan ada keseimbangan kerja-hidup yang sehat.
+- **Retensi karyawan baru**: Berikan perhatian khusus untuk karyawan dengan masa kerja <3 tahun, seperti program onboarding atau mentorship.
+- **Evaluasi kompensasi**: Lakukan evaluasi periodik terhadap struktur gaji, terutama bagi karyawan dengan penghasilan rendah.
+- **Program kesejahteraan**: Bangun inisiatif yang mendorong kepuasan kerja dan mendukung pengembangan karier.
+- **Pendekatan personalisasi**: Lakukan analisis lebih lanjut berdasarkan usia, gender, dan peran untuk membuat kebijakan HR yang lebih relevan.
