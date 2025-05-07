@@ -28,7 +28,11 @@ Dataset yang digunakan berasal dari github:
 
 ### 1. Persiapkan lingkungan Python
 
-Pastikan kamu menggunakan Python 3.7 atau lebih baru. Disarankan menggunakan virtual environment seperti `venv` atau `conda`.
+Di Google Colab, kitak tidak usah perlu khawatir tentang mengaktifkan virtual environment. Colab sudah menggunakan Python versi 3.x secara default. kita bisa mengecek versi Python yang sedang digunakan dengan menjalankan perintah ini di Colab:
+
+!python --version
+
+setelah melihat versi 3.7 mari kita lanjutkan ke selanjutnya
 
 ### 2. Install dependensi
 
