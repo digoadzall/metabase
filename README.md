@@ -48,7 +48,7 @@ Jika menggunakan Google Colab, tidak perlu install manual karena library tersebu
 
 Jalankan notebook Jupyter berikut untuk melakukan analisis dan modeling:
 
-📄 `Notebook_EDA_Complete.ipynb`
+📄 `Untitled7.ipynb`
 
 Pastikan file `employee_data.csv` ada di direktori yang sama sebelum menjalankan notebook.
 
